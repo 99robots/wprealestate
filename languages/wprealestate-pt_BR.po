@@ -1,0 +1,995 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Real Estate\n"
+"POT-Creation-Date: 2014-05-04 01:41+0800\n"
+"PO-Revision-Date: 2017-05-31 15:05-0300\n"
+"Last-Translator: Ali <hozyali@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: D:/My Data/RealEstate_WP_Plugin/wp_es/wp-content/"
+"plugins/wprealestate\n"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:9
+msgid "Property Details"
+msgstr "Detalhes sobre o imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:46
+msgid "Location Details"
+msgstr "Detalhes da Localização"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:48
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:109
+msgid "Property Name"
+msgstr "Nome da propriedade"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:56
+msgid "Area / Location"
+msgstr "Localização"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:63
+msgid "Unit #"
+msgstr ""
+
+# endereço
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:71
+msgid "Address"
+msgstr "Endereço"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:78
+msgid "Zip Code"
+msgstr "CEP"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:84
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:191
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:233
+msgid "City"
+msgstr "Cidade"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:91
+msgid "State"
+msgstr "Estado"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:99
+msgid "Property Information"
+msgstr "Detalhes do imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:102
+msgid "List Type"
+msgstr "Tipo de imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:106
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:71
+msgid "Sale"
+msgstr "Venda"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:107
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:72
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:127
+msgid "Rent"
+msgstr "Aluguel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:112
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_property_type.php:2
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:153
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:174
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:233
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:77
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:119
+msgid "Property Type"
+msgstr "Tipo de imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:138
+msgid "Built upto (sq. ft)"
+msgstr "Area construída ( m2)"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:142
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:157
+msgid "Only numbers"
+msgstr "Somente números"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:146
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:135
+msgid "Land area"
+msgstr "Area do terreno"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:153
+msgid "Sale Price"
+msgstr "Preço de venda"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:161
+msgid "Rent Price"
+msgstr "Preço do aluguel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:166
+msgid "Per Day"
+msgstr "Por dia"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:167
+msgid "Per Week"
+msgstr "Por semana"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:168
+msgid "Per Month"
+msgstr "Por mês"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:169
+msgid "Per Year"
+msgstr "Por ano"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:172
+msgid "If available on rent also. Enter only numbers"
+msgstr "Se estiver disponível para aluguel também. Preencha om números somente"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:176
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:139
+msgid "Bedroom"
+msgstr "Quartos"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:183
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:143
+msgid "Bathroom"
+msgstr "Banheiros"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:190
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:174
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:186
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:147
+msgid "Furnishing"
+msgstr "Mobiliado"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:194
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:206
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:217
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:189
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:146
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:150
+msgid "Not Applicable"
+msgstr "Não se aplica"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:195
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:190
+msgid "Unfurnished"
+msgstr "Sem mobília"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:196
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:191
+msgid "Semi Furnished"
+msgstr "Semi mobiliado"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:197
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:192
+msgid "Fully Furnished"
+msgstr "Totalmente mobiliado"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:202
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:178
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:219
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:151
+msgid "Tenure"
+msgstr "Posse"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:207
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:222
+msgid "Freehold"
+msgstr "Livre"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:208
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:223
+msgid "Leasehold"
+msgstr "Arrendamento"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:213
+msgid "Cons. Year"
+msgstr "Ano da construção"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/adm_pro_custom_details.php:227
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:155
+msgid "Date Available"
+msgstr "Disponível em"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_property_type.php:9
+msgid "Add Property Type"
+msgstr "Adicionar um imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_property_type.php:22
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_property_type.php:28
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:338
+msgid "Delete"
+msgstr "Apaga"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:2
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:175
+msgid "Settings"
+msgstr "Configurações"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:39
+msgid "Currency Symbol"
+msgstr "Simbolo de dinheiro"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:44
+msgid "Agent Inquiry Email"
+msgstr "Email do corretor"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:48
+msgid "Search widget bg color"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:52
+msgid "Property Listing Page"
+msgstr "Página de lista de imóveis"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:70
+msgid "Number of listing per page"
+msgstr "Quantidade de imóveis na lista por pagina"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:74
+msgid "Sidebar in property listing page?"
+msgstr "Barra lateral na página de lista de imóveis?"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:77
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:85
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:92
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:103
+msgid "Yes"
+msgstr "Sim"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:78
+msgid "Full Width"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:82
+msgid "Sidebar in property detail page?"
+msgstr "Barra lateral na pagina de detalhes?"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:86
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:93
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:104
+msgid "No"
+msgstr "No"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:90
+msgid "Display Property ID (in listing)"
+msgstr "Características do imóvel (em lista)"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:97
+msgid "Max Property Photos"
+msgstr "Máximo de fotos por imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:101
+msgid "Display social share buttons"
+msgstr "Mostrar botões de rede social"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:112
+msgid "More options coming soon..."
+msgstr "Mais opções em breve"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:118
+msgid "Suggest us more features"
+msgstr "Faça sua sugestão "
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:136
+msgid "Customize Advanced Search <em>(Mark what you want to show)"
+msgstr "Busca avançada<em>(Marque o que vc quer encontrar)"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:139
+msgid "Note"
+msgstr "Nota"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:139
+msgid ""
+"Please fill the fields in property details if you have enabled the fields to "
+"be searchable below."
+msgstr ""
+"Por favor preencha os campos em Detlhes do imóvel se você habilitou os "
+"campos para serem usados na busca"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:142
+msgid "Property Title"
+msgstr "Título do imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:142
+msgid "(Required)"
+msgstr "( obrigatório)"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:148
+msgid "Listing Type (Sale/Rent)"
+msgstr "Tipo de lista ( Venda/Aluguel)"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:158
+msgid "Price Range"
+msgstr "Faixa de preço"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:162
+msgid "Size Range"
+msgstr "Por àrea"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:166
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:156
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:247
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:299
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:247
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:288
+msgid "Bedrooms"
+msgstr "Quartos"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:170
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:171
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:250
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:302
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:250
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:291
+msgid "Bathrooms"
+msgstr "Banheiros"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:187
+msgid "Construction Year"
+msgstr "Ano da construção"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_er_settings.php:194
+msgid "Save"
+msgstr "Salvar"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_re_home.php:1
+msgid "Home"
+msgstr "Home"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_re_home.php:3
+msgid ""
+"<p><strong>NOTE</strong>: <em>If you do all the settings correctly and still "
+"see 404 page not found errors, please go to your <a href=\"options-permalink."
+"php\">wp-admin &gt; settings &gt; permalinks</a> and simply press the save "
+"button. It will reset your permalinks and make the plugins links active. "
+"Pressing the save button does not need to change the actual permalinks "
+"configuration.</em></p>\n"
+"<p>A quick  video tutorial is located here <a href=\"http://www.youtube.com/"
+"watch?v=PDkLs5lj9G4\" target=\"_blank\">http://www.youtube.com/watch?"
+"v=PDkLs5lj9G4</a></p>\n"
+"<p>Thank you for choosing WP Real Estate plugin. I hope you will like the "
+"plugin and enjoy using it. If you have any support or sales related queries, "
+"please feel free to send an email to <a href=\"mailto:sales@etechysolutions."
+"com.my\">sales@etechysolutions.com.my.</a></p>\n"
+"<h3>What is new in version 3.0</h3>\n"
+"<ul style=\"list-style: disc inside none;\">\n"
+"  <li>Unlimited property photos can be added</li>\n"
+"  <li>Enable/Disable social sharing</li>\n"
+"  <li>Custom property types have been added. You can add or manage your own "
+"<a href=\"admin.php?page=WPRealEstatePropertyType\">custom property types "
+"from here</a>.</li>\n"
+"  <li>Advanced property search has been added. You can customize the form by "
+"selecting what fields you want to use for <a href=\"admin.php?"
+"page=WPRealEstateSettings\">advanced search from here</a>.</li>\n"
+"  <li>Also make sure you have selected the correct property listing page.</"
+"li>\n"
+"</ul>"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_re_home.php:15
+msgid "Stay Updated and get more customized features directly to your inbox"
+msgstr "Fique por dentro das novidades e receba as oportunidades em  seu email"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_re_home.php:26
+msgid ""
+"<strong>I promise, you will not get a single spam</strong>. Leave your email "
+"below"
+msgstr "<strong>I prometemos não enviar spam</strong>. Deixe seu email abaixo"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_re_home.php:27
+msgid "email address"
+msgstr "endereço de email"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_re_home.php:30
+msgid "Join"
+msgstr "Junte-se"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/et_re_home.php:37
+msgid ""
+"<p>Would you like us to feature your website in our show case? Please send "
+"us your name, email and website address to <a href=\"mailto:"
+"sales@etechysolutions.com.my\">sales@etechysolutions.com.my</a> and we will "
+"be glad to feature your website using WP Real Estate on our website's show "
+"case.</p>"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:68
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:69
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:79
+msgid "Properties"
+msgstr "Imóveis"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:70
+msgid "Add New"
+msgstr "Adcionar novo"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:71
+msgid "Add New Property"
+msgstr "Adicionar novo imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:72
+msgid "Edit Property"
+msgstr "Editar imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:73
+msgid "New Property"
+msgstr "Novo imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:74
+msgid "All Properties"
+msgstr "Detalhes"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:75
+msgid "View Property"
+msgstr "Ver imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:76
+msgid "Search Properties"
+msgstr "Buscar meu imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:77
+msgid "No properties found"
+msgstr "Nenhum imóvel encontrado"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:78
+msgid "No property found in Trash"
+msgstr "Nenhum imóvel encontrado no lixo"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:133
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:153
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:63
+msgid "Search Property"
+msgstr "Buscar imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:141
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:148
+msgid "Property Search"
+msgstr "Busca de imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:149
+msgid "Keyword"
+msgstr "Palavra chave"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:202
+msgid "Facility"
+msgstr "Serviços"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:203
+msgid "All Facilities"
+msgstr "Todos os serviços"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:204
+msgid "Parent Facility"
+msgstr "Serviço para os pais"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:205
+msgid "Parent Facility:"
+msgstr "Serviço para os pais:"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:206
+msgid "New Facility Name"
+msgstr "Novo serviço"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:207
+msgid "Add New Facility"
+msgstr "Adicionar um novo serviço"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:208
+msgid "Edit Facility"
+msgstr "Editar serviço"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:209
+msgid "Update Facility"
+msgstr "Update de serviços"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:210
+msgid "Separate facilities with commas"
+msgstr "Separar serviços com vírgula"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:211
+msgid "Search facilities"
+msgstr "Busca por serviços"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:212
+msgid "Add or remove facilities"
+msgstr "Adicionar ou remover serviços"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:213
+msgid "Choose from the most used facilities"
+msgstr "Escolha os serviços mais utilizados"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:234
+msgid "All Property Types"
+msgstr "Todos los tipos de imóveis"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:235
+msgid "Parent Property Type"
+msgstr "Padres Tipo de Inmueble"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:236
+msgid "Parent Property Type:"
+msgstr "Padres Tipo de propiedad:"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:237
+msgid "New Property Type"
+msgstr "Nuevo Tipo de Inmueble"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:238
+msgid "Add New Property Type"
+msgstr "Crear Nuevo Tipo de Inmueble"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:239
+msgid "Edit Property Type"
+msgstr "Editar Tipo de Inmueble"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:240
+msgid "Update Property Type"
+msgstr "Update Tipo de Inmueble"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:241
+msgid "Separate property types with commas"
+msgstr "Los tipos de inmueble con comas"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:242
+msgid "Search property types"
+msgstr "Tipos Buscar una propiedad"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:243
+msgid "Add or remove property types"
+msgstr "Agregar o quitar tipos de propiedad"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:244
+msgid "Choose from the most used property types"
+msgstr "Elija entre los tipos de propiedad más utilizados"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:321
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:327
+msgid "Already exists."
+msgstr "Já existe"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:341
+msgid "Property Type Saved."
+msgstr "Tipo de imóvel salvo."
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:380
+msgid "Property Type Removed."
+msgstr "Tipo de Iimóvel apagado."
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/etechyrealestate.php:390
+msgid "Options Saved."
+msgstr "Opções salvas"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:62
+msgid "Keywords"
+msgstr "Palavra chave"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:68
+msgid "Listing Type"
+msgstr "Tipo de lista"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:70
+msgid "All"
+msgstr "Todos"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:71
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:240
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:292
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:244
+msgid "For Sale"
+msgstr "A venda"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:72
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:238
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:290
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:241
+msgid "For Rent"
+msgstr "Para alugar"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:79
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:140
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:158
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:221
+msgid "Any"
+msgstr "Qualquer"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:102
+msgid "Floor Area (Built-in)"
+msgstr "Àrea construída ( no ano de )"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:104
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:199
+msgid "Min"
+msgstr "MIn"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:105
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:121
+msgid "200 sqft (18 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:106
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:122
+msgid "500 sqft (46 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:107
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:123
+msgid "750 sqft (70 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:108
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:124
+msgid "1,000 sqft (93 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:109
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:125
+msgid "1,200 sqft (112 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:110
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:126
+msgid "1,500 sqft (139 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:111
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:127
+msgid "2,000 sqft (186 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:112
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:128
+msgid "2,500 sqft (232 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:113
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:129
+msgid "3,000 sqft (279 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:114
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:130
+msgid "4,000 sqft (372 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:115
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:131
+msgid "5,000 sqft (465 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:116
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:132
+msgid "7,500 sqft (697 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:117
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:133
+msgid "10,000 sqft (929 sqm)"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:120
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:208
+msgid "Max"
+msgstr "Max"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:138
+msgid "Location"
+msgstr "Localização"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:150
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:123
+msgid "Price"
+msgstr "Preço"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:197
+msgid "Year Constructed"
+msgstr "Ano de construção"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/functions.php:238
+msgid "SEARCH"
+msgstr "Busca"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/library/property-images-metabox.php:26
+msgid "Add Photos"
+msgstr "Adicionar fotos"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/library/property-images-metabox.php:156
+msgid "Remove"
+msgstr "Apagar"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:12
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:10
+msgid "Property Listing"
+msgstr "Lista de imóveis"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:244
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:296
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:238
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:284
+msgid "Built Up"
+msgstr "Construido até"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:255
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:307
+msgid "View Details"
+msgstr "Ver detalhes"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_list.php:324
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:312
+msgid "no results"
+msgstr "sem resultado"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:13
+msgid "An inquiry received from your site"
+msgstr "Uma pergunta vinda do seu site"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:14
+msgid "Property URL"
+msgstr "Site do imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:15
+msgid "Name"
+msgstr "Nome"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:16
+msgid "Email"
+msgstr "Email"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:17
+msgid "Phone"
+msgstr "Telefone"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:18
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:196
+msgid "Message"
+msgstr "Mensagem"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:19
+msgid "User IP"
+msgstr "IP do usuário"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:21
+msgid "Message from"
+msgstr "Mensagem de"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:100
+msgid "Facebook Like"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:101
+msgid "Tweet"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:102
+msgid "Google+"
+msgstr ""
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:103
+msgid "ShareThis"
+msgstr "Compartilhe"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:107
+msgid "Details"
+msgstr "Detalhes do imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:110
+msgid "Property Address"
+msgstr "Endereço do imóvel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:131
+msgid "Built up"
+msgstr "Construido em"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:161
+msgid "Facilities"
+msgstr "Serviços"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:171
+msgid "Description"
+msgstr "Descrição"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:182
+msgid "Inquiry has been sent to the Agent"
+msgstr "Uma pergunta foi enviada ao seu corretor"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:185
+msgid "Send an inquiry to the agent"
+msgstr "Mande sua pergunta à nossa equipe"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:187
+msgid "Your Name"
+msgstr "Seu nome"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:190
+msgid "Your Email"
+msgstr "Seu email"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:193
+msgid "Your Phone"
+msgstr "Seu telefone"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/tpl_property_view.php:201
+msgid "Send Inquiry"
+msgstr "Mande sua pergunta"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:235
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:281
+msgid "Property ID"
+msgstr "Id do imovel"
+
+#: D:\My
+#: Data\RealEstate_WP_Plugin\wp_es\wp-content\plugins\wprealestate/x.tpl_property_list.php:286
+msgid "For"
+msgstr "Para"

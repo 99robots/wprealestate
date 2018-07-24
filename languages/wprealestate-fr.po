@@ -1,0 +1,782 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Real Estate\n"
+"POT-Creation-Date: 2014-05-08 07:50+0800\n"
+"PO-Revision-Date: 2017-06-07 01:54+0500\n"
+"Last-Translator: Ali <hozyali@gmail.com>\n"
+"Language-Team: Ali <hozyali@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: adm_pro_custom_details.php:9
+msgid "Property Details"
+msgstr "Détails de la Propriété"
+
+#: adm_pro_custom_details.php:46
+msgid "Location Details"
+msgstr "Localisation"
+
+#: adm_pro_custom_details.php:48 tpl_property_view.php:109
+msgid "Property Name"
+msgstr "Nom de la Propriété"
+
+#: adm_pro_custom_details.php:56
+msgid "Area / Location"
+msgstr "Quartier"
+
+#: adm_pro_custom_details.php:63
+msgid "Unit #"
+msgstr "Unit #"
+
+#: adm_pro_custom_details.php:71
+msgid "Address"
+msgstr "Adresse"
+
+#: adm_pro_custom_details.php:78
+msgid "Zip Code"
+msgstr "Code Postal"
+
+#: adm_pro_custom_details.php:84 et_er_settings.php:191 functions.php:233
+msgid "City"
+msgstr "Ville"
+
+#: adm_pro_custom_details.php:91
+msgid "State"
+msgstr "Region/Province"
+
+#: adm_pro_custom_details.php:99
+msgid "Property Information"
+msgstr "Information "
+
+#: adm_pro_custom_details.php:102
+msgid "List Type"
+msgstr "Annonces"
+
+#: adm_pro_custom_details.php:106 functions.php:71
+msgid "Sale"
+msgstr "Vente"
+
+#: adm_pro_custom_details.php:107 functions.php:72 tpl_property_view.php:127
+msgid "Rent"
+msgstr "Location"
+
+#: adm_pro_custom_details.php:112 et_er_property_type.php:2
+#: et_er_settings.php:153 etechyrealestate.php:174 etechyrealestate.php:233
+#: functions.php:77 tpl_property_view.php:119
+msgid "Property Type"
+msgstr "Type de Propriété"
+
+#: adm_pro_custom_details.php:138
+msgid "Built upto (sq. ft)"
+msgstr "Aire (M2)"
+
+#: adm_pro_custom_details.php:142 adm_pro_custom_details.php:157
+msgid "Only numbers"
+msgstr "Chiffres Uniquement"
+
+#: adm_pro_custom_details.php:146 tpl_property_view.php:135
+msgid "Land area"
+msgstr "Surface"
+
+#: adm_pro_custom_details.php:153
+msgid "Sale Price"
+msgstr "Prix de vente"
+
+#: adm_pro_custom_details.php:161
+msgid "Rent Price"
+msgstr "Loyer"
+
+#: adm_pro_custom_details.php:166
+msgid "Per Day"
+msgstr "par jour"
+
+#: adm_pro_custom_details.php:167
+msgid "Per Week"
+msgstr "par semaine"
+
+#: adm_pro_custom_details.php:168
+msgid "Per Month"
+msgstr "par mois"
+
+#: adm_pro_custom_details.php:169
+msgid "Per Year"
+msgstr "par An"
+
+#: adm_pro_custom_details.php:172
+msgid "If available on rent also. Enter only numbers"
+msgstr "Si disponible en location. Entrez uniquement des chiffres"
+
+#: adm_pro_custom_details.php:176 tpl_property_view.php:139
+msgid "Bedroom"
+msgstr "Chambre / Pièce"
+
+#: adm_pro_custom_details.php:183 tpl_property_view.php:143
+msgid "Bathroom"
+msgstr "Toilette"
+
+#: adm_pro_custom_details.php:190 et_er_settings.php:174 functions.php:186
+#: tpl_property_view.php:147
+msgid "Furnishing"
+msgstr "Ameublement"
+
+#: adm_pro_custom_details.php:194 adm_pro_custom_details.php:206
+#: adm_pro_custom_details.php:217 functions.php:189 tpl_property_view.php:146
+#: tpl_property_view.php:150
+msgid "Not Applicable"
+msgstr "N/A"
+
+#: adm_pro_custom_details.php:195 functions.php:190
+msgid "Unfurnished"
+msgstr "Non-Meublé"
+
+#: adm_pro_custom_details.php:196 functions.php:191
+msgid "Semi Furnished"
+msgstr "Meublé Partiellement"
+
+#: adm_pro_custom_details.php:197 functions.php:192
+msgid "Fully Furnished"
+msgstr "Meublé Partiellement"
+
+#: adm_pro_custom_details.php:202 et_er_settings.php:178 functions.php:219
+#: tpl_property_view.php:151
+msgid "Tenure"
+msgstr "Propriétaire"
+
+#: adm_pro_custom_details.php:207 functions.php:222
+msgid "Freehold"
+msgstr "Freehold"
+
+#: adm_pro_custom_details.php:208 functions.php:223
+msgid "Leasehold"
+msgstr "Leasehold"
+
+#: adm_pro_custom_details.php:213
+msgid "Cons. Year"
+msgstr "Année de Construction"
+
+#: adm_pro_custom_details.php:227 tpl_property_view.php:155
+msgid "Date Available"
+msgstr "Disponibilité"
+
+#: et_er_property_type.php:9
+msgid "Add Property Type"
+msgstr "Ajout du Type de Propriété"
+
+#: et_er_property_type.php:22 et_er_property_type.php:28
+#: etechyrealestate.php:338
+msgid "Delete"
+msgstr "Supprimer"
+
+#: et_er_settings.php:2 etechyrealestate.php:175
+msgid "Settings"
+msgstr "Paramètres"
+
+#: et_er_settings.php:39
+msgid "Currency Symbol"
+msgstr "Devise (Symbole)"
+
+#: et_er_settings.php:44
+msgid "Agent Inquiry Email"
+msgstr "Contactez l'Annonceur"
+
+#: et_er_settings.php:48
+msgid "Search widget bg color"
+msgstr "Widget de recherche"
+
+#: et_er_settings.php:52
+msgid "Property Listing Page"
+msgstr "Page d'annonce"
+
+#: et_er_settings.php:70
+msgid "Number of listing per page"
+msgstr "Nombre d'Annonces par page"
+
+#: et_er_settings.php:74
+msgid "Sidebar in property listing page?"
+msgstr "Barre latérale sur la page principale d'annonce"
+
+#: et_er_settings.php:77 et_er_settings.php:85 et_er_settings.php:92
+#: et_er_settings.php:103
+msgid "Yes"
+msgstr "Oui"
+
+#: et_er_settings.php:78
+msgid "Full Width"
+msgstr "Plein Ecran"
+
+#: et_er_settings.php:82
+msgid "Sidebar in property detail page?"
+msgstr "Barre latérale sur la page de détails de l'annonce"
+
+#: et_er_settings.php:86 et_er_settings.php:93 et_er_settings.php:104
+msgid "No"
+msgstr "Non"
+
+#: et_er_settings.php:90
+msgid "Display Property ID (in listing)"
+msgstr "Montrer Propriété ID "
+
+#: et_er_settings.php:97
+msgid "Max Property Photos"
+msgstr "Nombre Max. de Photos"
+
+#: et_er_settings.php:101
+msgid "Display social share buttons"
+msgstr "Montrer Icônes de Partage Social"
+
+#: et_er_settings.php:112
+msgid "More options coming soon..."
+msgstr "Plus d'options à venir…."
+
+#: et_er_settings.php:118
+msgid "Suggest us more features"
+msgstr "Suggérez-nous les options que vous aimeriez que nous ajoutions"
+
+#: et_er_settings.php:136
+msgid "Customize Advanced Search <em>(Mark what you want to show)"
+msgstr "Personnalisation avancée <em>(Cliquer ce que vous aimeriez afficher)"
+
+#: et_er_settings.php:139
+msgid "Note"
+msgstr "Note"
+
+#: et_er_settings.php:139
+msgid ""
+"Please fill the fields in property details if you have enabled the fields to "
+"be searchable below."
+msgstr ""
+"S'il vous plaît remplir les champs dans les détails de la propriété si vous "
+"avez activé les champs pour être consultable ci-dessous."
+
+#: et_er_settings.php:142
+msgid "Property Title"
+msgstr "Titre de la Propriété"
+
+#: et_er_settings.php:142
+msgid "(Required)"
+msgstr "(Recommandé)"
+
+#: et_er_settings.php:148
+msgid "Listing Type (Sale/Rent)"
+msgstr "Type d'Annonce (Vente/Location)"
+
+#: et_er_settings.php:158
+msgid "Price Range"
+msgstr "Gamme de Prix"
+
+#: et_er_settings.php:162
+msgid "Size Range"
+msgstr "Gamme de Surface"
+
+#: et_er_settings.php:166 functions.php:156 tpl_property_list.php:247
+#: tpl_property_list.php:299 x.tpl_property_list.php:247
+#: x.tpl_property_list.php:288
+msgid "Bedrooms"
+msgstr "Chambres"
+
+#: et_er_settings.php:170 functions.php:171 tpl_property_list.php:250
+#: tpl_property_list.php:302 x.tpl_property_list.php:250
+#: x.tpl_property_list.php:291
+msgid "Bathrooms"
+msgstr "Toilettes"
+
+#: et_er_settings.php:187
+msgid "Construction Year"
+msgstr "Année de Construction"
+
+#: et_er_settings.php:194
+msgid "Save"
+msgstr "Enregistrer"
+
+#: et_re_home.php:1
+msgid "Home"
+msgstr "Accueil"
+
+#: et_re_home.php:3
+msgid ""
+"<p><strong>NOTE</strong>: <em>If you do all the settings correctly and still "
+"see 404 page not found errors, please go to your <a href=\"options-permalink."
+"php\">wp-admin &gt; settings &gt; permalinks</a> and simply press the save "
+"button. It will reset your permalinks and make the plugins links active. "
+"Pressing the save button does not need to change the actual permalinks "
+"configuration.</em></p>\n"
+"<p>A quick  video tutorial is located here <a href=\"http://www.youtube.com/"
+"watch?v=PDkLs5lj9G4\" target=\"_blank\">http://www.youtube.com/watch?"
+"v=PDkLs5lj9G4</a></p>\n"
+"<p>Thank you for choosing WP Real Estate plugin. I hope you will like the "
+"plugin and enjoy using it. If you have any support or sales related queries, "
+"please feel free to send an email to <a href=\"mailto:sales@etechysolutions."
+"com.my\">sales@etechysolutions.com.my.</a></p>\n"
+"<h3>What is new in version 3.0</h3>\n"
+"<ul style=\"list-style: disc inside none;\">\n"
+"  <li>Unlimited property photos can be added</li>\n"
+"  <li>Enable/Disable social sharing</li>\n"
+"  <li>Custom property types have been added. You can add or manage your own "
+"<a href=\"admin.php?page=WPRealEstatePropertyType\">custom property types "
+"from here</a>.</li>\n"
+"  <li>Advanced property search has been added. You can customize the form by "
+"selecting what fields you want to use for <a href=\"admin.php?"
+"page=WPRealEstateSettings\">advanced search from here</a>.</li>\n"
+"  <li>Also make sure you have selected the correct property listing page.</"
+"li>\n"
+"</ul>"
+msgstr ""
+
+#: et_re_home.php:15
+msgid "Stay Updated and get more customized features directly to your inbox"
+msgstr "Restez à jour et recevez toutes les mises à jour dans votre boite"
+
+#: et_re_home.php:26
+msgid ""
+"<strong>I promise, you will not get a single spam</strong>. Leave your email "
+"below"
+msgstr ""
+"<strong>Je vous promet, vous ne recevrez aucun spam</strong>. Laissez votre "
+"message en dessous"
+
+#: et_re_home.php:27
+msgid "email address"
+msgstr "Adresse émail"
+
+#: et_re_home.php:30
+msgid "Join"
+msgstr "Rejoindre"
+
+#: et_re_home.php:37
+msgid ""
+"<p>Would you like us to feature your website in our show case? Please send "
+"us your name, email and website address to <a href=\"mailto:"
+"sales@etechysolutions.com.my\">sales@etechysolutions.com.my</a> and we will "
+"be glad to feature your website using WP Real Estate on our website's show "
+"case.</p>"
+msgstr ""
+"<p>Aimeriez-vous que nous parametrons votre site web? Envoies simplement ton "
+"nom, email et website à <a href=\"mailto:sales@etechysolutions.com.my"
+"\">sales@etechysolutions.com.my</a>  et nous nous ferons le plaisir de "
+"paramétrer votre site utilisant WP Real Estate.</p>"
+
+#: etechyrealestate.php:68 etechyrealestate.php:69 etechyrealestate.php:79
+msgid "Properties"
+msgstr "Propriétés"
+
+#: etechyrealestate.php:70
+msgid "Add New"
+msgstr "Ajouter Nouveau"
+
+#: etechyrealestate.php:71
+msgid "Add New Property"
+msgstr "Ajoutez Nouvelle Propriété"
+
+#: etechyrealestate.php:72
+msgid "Edit Property"
+msgstr "Editez Propriété"
+
+#: etechyrealestate.php:73
+msgid "New Property"
+msgstr "Nouvelle Propriété"
+
+#: etechyrealestate.php:74
+msgid "All Properties"
+msgstr "Toutes les Propriétés"
+
+#: etechyrealestate.php:75
+msgid "View Property"
+msgstr "Voir Propriété"
+
+#: etechyrealestate.php:76
+msgid "Search Properties"
+msgstr "Recherche Propriétés"
+
+#: etechyrealestate.php:77
+msgid "No properties found"
+msgstr "Aucune Propriété trouvée"
+
+#: etechyrealestate.php:78
+msgid "No property found in Trash"
+msgstr "Aucune Propriété trouvée dans la corbeille"
+
+#: etechyrealestate.php:133 etechyrealestate.php:153 functions.php:63
+msgid "Search Property"
+msgstr "Recherche Propriété"
+
+#: etechyrealestate.php:141 etechyrealestate.php:148
+msgid "Property Search"
+msgstr "Recherche Propriété"
+
+#: etechyrealestate.php:149
+msgid "Keyword"
+msgstr "Mots-clés"
+
+#: etechyrealestate.php:200
+msgctxt "Taxonomy General Name"
+msgid "Facilities"
+msgstr "Amenagements"
+
+#: etechyrealestate.php:201
+msgctxt "Taxonomy Singular Name"
+msgid "Facility"
+msgstr "Amenagements"
+
+#: etechyrealestate.php:202
+msgid "Facility"
+msgstr "Amenagements"
+
+#: etechyrealestate.php:203
+msgid "All Facilities"
+msgstr "Tous les aménagements"
+
+#: etechyrealestate.php:204
+msgid "Parent Facility"
+msgstr ""
+
+#: etechyrealestate.php:205
+msgid "Parent Facility:"
+msgstr ""
+
+#: etechyrealestate.php:206
+msgid "New Facility Name"
+msgstr ""
+
+#: etechyrealestate.php:207
+msgid "Add New Facility"
+msgstr "Ajoutez nouvel Amenagement"
+
+#: etechyrealestate.php:208
+msgid "Edit Facility"
+msgstr "Editez Aménagement"
+
+#: etechyrealestate.php:209
+msgid "Update Facility"
+msgstr "Mettre les Aménagements"
+
+#: etechyrealestate.php:210
+msgid "Separate facilities with commas"
+msgstr "Separez par des virgules"
+
+#: etechyrealestate.php:211
+msgid "Search facilities"
+msgstr "Recherche Aménagements"
+
+#: etechyrealestate.php:212
+msgid "Add or remove facilities"
+msgstr "Ajouter ou Enlever des Amenagements"
+
+#: etechyrealestate.php:213
+msgid "Choose from the most used facilities"
+msgstr "Choisir à partir de l'aménagement le plus utilisé"
+
+#: etechyrealestate.php:231
+msgctxt "Taxonomy General Name"
+msgid "Property Types"
+msgstr "Types de Propriété"
+
+#: etechyrealestate.php:232
+msgctxt "Taxonomy Singular Name"
+msgid "Property Type"
+msgstr "Type de Propriété"
+
+#: etechyrealestate.php:234
+msgid "All Property Types"
+msgstr "Tous les Types de Propriété"
+
+#: etechyrealestate.php:235
+msgid "Parent Property Type"
+msgstr "Type de Propriété Parent"
+
+#: etechyrealestate.php:236
+msgid "Parent Property Type:"
+msgstr "Type de Propriété Parent:"
+
+#: etechyrealestate.php:237
+msgid "New Property Type"
+msgstr "Nouveau Type  de Propriété"
+
+#: etechyrealestate.php:238
+msgid "Add New Property Type"
+msgstr "Ajoutez Nouveau Type de Propriété"
+
+#: etechyrealestate.php:239
+msgid "Edit Property Type"
+msgstr "Edites le type de propriété"
+
+#: etechyrealestate.php:240
+msgid "Update Property Type"
+msgstr "Mettre à jour le type de Propriété"
+
+#: etechyrealestate.php:241
+msgid "Separate property types with commas"
+msgstr "Séparez les types de propriété par des virgules"
+
+#: etechyrealestate.php:242
+msgid "Search property types"
+msgstr "Rechercher Types de Propriété"
+
+#: etechyrealestate.php:243
+msgid "Add or remove property types"
+msgstr "Ajouter ou Enlever le type de propriété"
+
+#: etechyrealestate.php:244
+msgid "Choose from the most used property types"
+msgstr "Choisir à partir du type de propriété le plus utilisé"
+
+#: etechyrealestate.php:321 etechyrealestate.php:327
+msgid "Already exists."
+msgstr "Existe déjà."
+
+#: etechyrealestate.php:341
+msgid "Property Type Saved."
+msgstr "Type de Propriété enregistré."
+
+#: etechyrealestate.php:380
+msgid "Property Type Removed."
+msgstr "Type de Propriété enlevé."
+
+#: etechyrealestate.php:390
+msgid "Options Saved."
+msgstr "Options enregistrées."
+
+#: functions.php:62
+msgid "Keywords"
+msgstr "Mots-clés"
+
+#: functions.php:68
+msgid "Listing Type"
+msgstr "Type d'Annonce"
+
+#: functions.php:70
+msgid "All"
+msgstr "Toutt"
+
+#: functions.php:71 tpl_property_list.php:240 tpl_property_list.php:292
+#: x.tpl_property_list.php:244
+msgid "For Sale"
+msgstr "En Vente"
+
+#: functions.php:72 tpl_property_list.php:238 tpl_property_list.php:290
+#: x.tpl_property_list.php:241
+msgid "For Rent"
+msgstr "A Louer"
+
+#: functions.php:79 functions.php:140 functions.php:158 functions.php:221
+msgid "Any"
+msgstr "Peu importe"
+
+#: functions.php:102
+msgid "Floor Area (Built-in)"
+msgstr "Surface"
+
+#: functions.php:104 functions.php:199
+msgid "Min"
+msgstr "Min"
+
+#: functions.php:105 functions.php:121
+msgid "200 sqft (18 sqm)"
+msgstr ""
+
+#: functions.php:106 functions.php:122
+msgid "500 sqft (46 sqm)"
+msgstr ""
+
+#: functions.php:107 functions.php:123
+msgid "750 sqft (70 sqm)"
+msgstr ""
+
+#: functions.php:108 functions.php:124
+msgid "1,000 sqft (93 sqm)"
+msgstr ""
+
+#: functions.php:109 functions.php:125
+msgid "1,200 sqft (112 sqm)"
+msgstr ""
+
+#: functions.php:110 functions.php:126
+msgid "1,500 sqft (139 sqm)"
+msgstr ""
+
+#: functions.php:111 functions.php:127
+msgid "2,000 sqft (186 sqm)"
+msgstr ""
+
+#: functions.php:112 functions.php:128
+msgid "2,500 sqft (232 sqm)"
+msgstr "2,500 m2"
+
+#: functions.php:113 functions.php:129
+msgid "3,000 sqft (279 sqm)"
+msgstr "3,000 m2"
+
+#: functions.php:114 functions.php:130
+msgid "4,000 sqft (372 sqm)"
+msgstr "4,000 m2"
+
+#: functions.php:115 functions.php:131
+msgid "5,000 sqft (465 sqm)"
+msgstr "5,000 m2"
+
+#: functions.php:116 functions.php:132
+msgid "7,500 sqft (697 sqm)"
+msgstr "7,500 m2"
+
+#: functions.php:117 functions.php:133
+msgid "10,000 sqft (929 sqm)"
+msgstr "10,000 m2"
+
+#: functions.php:120 functions.php:208
+msgid "Max"
+msgstr "Max"
+
+#: functions.php:138
+msgid "Location"
+msgstr "Localisation"
+
+#: functions.php:150 tpl_property_view.php:123
+msgid "Price"
+msgstr "Prix"
+
+#: functions.php:197
+msgid "Year Constructed"
+msgstr "Année de Construction"
+
+#: functions.php:238
+msgid "SEARCH"
+msgstr "Recherche"
+
+#: library/property-images-metabox.php:26
+msgid "Add Photos"
+msgstr "Ajoutez Photos"
+
+#: library/property-images-metabox.php:156
+msgctxt "file"
+msgid "Add New"
+msgstr "Ajouter Nouveau"
+
+#: library/property-images-metabox.php:156
+msgid "Remove"
+msgstr "Enlevez"
+
+#: tpl_property_list.php:12 x.tpl_property_list.php:10
+msgid "Property Listing"
+msgstr "Annonces"
+
+#: tpl_property_list.php:244 tpl_property_list.php:296
+#: x.tpl_property_list.php:238 x.tpl_property_list.php:284
+msgid "Built Up"
+msgstr "Built Up"
+
+#: tpl_property_list.php:255 tpl_property_list.php:307
+msgid "View Details"
+msgstr "Voir détails"
+
+#: tpl_property_list.php:324 x.tpl_property_list.php:312
+msgid "no results"
+msgstr "aucun resultat"
+
+#: tpl_property_view.php:13
+msgid "An inquiry received from your site"
+msgstr "Requête reçu de votre site"
+
+#: tpl_property_view.php:14
+msgid "Property URL"
+msgstr "URL Propriété"
+
+#: tpl_property_view.php:15
+msgid "Name"
+msgstr "Nom"
+
+#: tpl_property_view.php:16
+msgid "Email"
+msgstr "Email"
+
+#: tpl_property_view.php:17
+msgid "Phone"
+msgstr "Telephone"
+
+#: tpl_property_view.php:18 tpl_property_view.php:196
+msgid "Message"
+msgstr "Message"
+
+#: tpl_property_view.php:19
+msgid "User IP"
+msgstr "IP Utilisateur"
+
+#: tpl_property_view.php:21
+msgid "Message from"
+msgstr "Message de la part de"
+
+#: tpl_property_view.php:100
+msgid "Facebook Like"
+msgstr "Facebook Like"
+
+#: tpl_property_view.php:101
+msgid "Tweet"
+msgstr "Tweet"
+
+#: tpl_property_view.php:102
+msgid "Google+"
+msgstr "Google+"
+
+#: tpl_property_view.php:103
+msgid "ShareThis"
+msgstr "Partage"
+
+#: tpl_property_view.php:107
+msgid "Details"
+msgstr "Détails"
+
+#: tpl_property_view.php:110
+msgid "Property Address"
+msgstr "Adresse"
+
+#: tpl_property_view.php:131
+msgid "Built up"
+msgstr "Surface"
+
+#: tpl_property_view.php:161
+msgid "Facilities"
+msgstr "Amenagements"
+
+#: tpl_property_view.php:171
+msgid "Description"
+msgstr "Description"
+
+#: tpl_property_view.php:182
+msgid "Inquiry has been sent to the Agent"
+msgstr "Requête envoyée à l'Annonceur"
+
+#: tpl_property_view.php:185
+msgid "Send an inquiry to the agent"
+msgstr "Envoies une requête à l'Annonceur"
+
+#: tpl_property_view.php:187
+msgid "Your Name"
+msgstr "Votre Nom"
+
+#: tpl_property_view.php:190
+msgid "Your Email"
+msgstr "Votre Email"
+
+#: tpl_property_view.php:193
+msgid "Your Phone"
+msgstr "Votre téléphone"
+
+#: tpl_property_view.php:201
+msgid "Send Inquiry"
+msgstr "Envoyez une demande d'infos"
+
+#: x.tpl_property_list.php:235 x.tpl_property_list.php:281
+msgid "Property ID"
+msgstr "Propriété ID"
+
+#: x.tpl_property_list.php:286
+msgid "For"
+msgstr "Pour"
