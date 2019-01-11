@@ -1,15 +1,17 @@
 <?php
 
 #$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-$filter = $_REQUEST['lt'];
-
+if(isset($_REQUEST['lt']) && $_REQUEST['lt']!="")
+{
+	$filter = $_REQUEST['lt'];
+}
 
 function WP_RE_list_properties( $atts ) {
 	extract( shortcode_atts( array(
 		'list_type' => 'sale',
 		'bar' => 'something else',
 	), $atts ) );
-	
+
 
 $p_list_sidebar = get_option('p_list_sidebar');
 $et_re_adv_flds = get_option('et_re_adv_flds');
@@ -24,7 +26,7 @@ $pro_args_pag = array(
 	'meta_value'       => $list_type,
 	'post_type'        => 'property',
 	'post_status'      => 'publish',
-	'suppress_filters' => true ); 
+	'suppress_filters' => true );
 
 $pro_list_pag = get_posts( $pro_args_pag );
 $pro_args = array(
@@ -36,13 +38,13 @@ $pro_args = array(
 	'meta_value'       => $list_type,
 	'post_type'        => 'property',
 	'post_status'      => 'publish',
-	'suppress_filters' => true ); 
+	'suppress_filters' => true );
 
 $pro_list = get_posts( $pro_args );
 #print_r($pro_list);
 
 $pro_return='';
-foreach ( $pro_list as $propertyQuery ) { 
+foreach ( $pro_list as $propertyQuery ) {
 
 $pro_return .= '<div id="PropertyQuickView">
   <div class="QVImage">';
@@ -51,11 +53,11 @@ $pro_return .= '<a href="'. get_permalink($propertyQuery->ID) .'" title="'. $pro
 </div>
 <div class="QVProInfo">
 <h2 class="h2typelist"><a href="'. get_permalink($propertyQuery->ID) .'">'. $propertyQuery->post_title.'</a></h2>';
-     
-	  if ($p_pro_id_display == 1) { 
+
+	  if ($p_pro_id_display == 1) {
 	  $pro_return .= translate( 'Property ID: ', 'wprealestate' ).$propertyQuery->ID.'<br>';
 	  }
-	         
+
       if (get_post_meta(get_the_ID(), 'et_er_built_size', true) <> '0') {
 	  $pro_return .= translate( 'Built Up: ', 'wprealestate' ).get_post_meta($propertyQuery->ID, 'et_er_built_size', true).'<br>';
 	  }
@@ -66,7 +68,7 @@ $pro_return .= '<a href="'. get_permalink($propertyQuery->ID) .'" title="'. $pro
 	  $pro_return .= translate( 'Bedrooms: ', 'wprealestate' ).get_post_meta($propertyQuery->ID, 'et_er_bedroom', true).'<br>';
 	  }
 
-	  if (get_post_meta($propertyQuery->ID, 'et_er_bathroom', true) <> 'Not Applicable') { 
+	  if (get_post_meta($propertyQuery->ID, 'et_er_bathroom', true) <> 'Not Applicable') {
 	  $pro_return .= translate( 'Bathrooms: ', 'wprealestate' ).get_post_meta($propertyQuery->ID, 'et_er_bathroom', true).'<br>';
       }
       $pro_return .='<div style="float:left; width:100px; bottom:0px;"><a href="'. get_permalink($propertyQuery->ID).'"><img src="'. ET_RE_URL.'/images/view_details_button.png" /></a></div>
@@ -74,7 +76,7 @@ $pro_return .= '<a href="'. get_permalink($propertyQuery->ID) .'" title="'. $pro
 <br style="clear:both;" />
 <div class="SpacerDiv"></div>
 </div>';
- } 
+ }
 $big = 999999999; // need an unlikely integer
 $totalp = ceil( count($pro_list_pag) / get_option('et_re_pp_listing') );
 $pro_return .= paginate_links( array(

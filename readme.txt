@@ -1,10 +1,10 @@
 === WP Real Estate ===
-Contributors: hozyali
+Contributors: hozyali, 99robots, charliepatel
 Donate link: http://www.etechy101.com/wp-real-estate-wordpress-plugin
 Tags: property listing, wp real estate, wordpress real estate plugin, advanced property search
 Requires at least: 3.0.1
-Tested up to: 4.8.1
-Stable tag: 5.4
+Tested up to: 5.0.3
+Stable tag: 5.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,11 +14,11 @@ Specially for real estate agents and people who are willing to list their proper
 
 Full usage video tutorial [How to Setup a Real Estate Website with WordPress](https://www.youtube.com/watch?v=PDkLs5lj9G4)
 
-Great options to list properties on your WordPress site. 
+Great options to list properties on your WordPress site.
 
 Specially for real estate agents and people who are looking to list their property listings.
 
-If you are looking to build a site where you can list property for sale or rent, this is the plugin you need. 
+If you are looking to build a site where you can list property for sale or rent, this is the plugin you need.
 
 Features
 ------------
@@ -59,7 +59,7 @@ How to increase the number of photos limit from 10
 Create Property Listing page
 ------------------------------
 
-* Create a normal page in your wordpress website 
+* Create a normal page in your wordpress website
 * Then go to WPRealEstate in admin > settings and select that page for property listing
 
 Create an advanced property search page
@@ -97,6 +97,11 @@ Go to Appearance > Widgets and add the text widget in your sidebar. then add thi
 3- Add property screen with great additional options and custom post type for better SE ranking
 
 == Changelog ==
+
+= 5.5 =
+* Bugs, Warnings and Notices Fixed
+* Updated UI to look cleaner
+
 = 5.4 =
 * Redesigned listing and view property pages
 * Improved css styles for sidebar search form

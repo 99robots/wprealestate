@@ -1,6 +1,7 @@
 <div class="wrap">
     <h2>WP Real Estate - <?php _e('Settings', 'wprealestate'); ?></h2>
     <?php
+    $et_re_pg_pro_list = "";
     if (get_option('et_re_wg_bg_color') == '') {
         $et_re_wg_bg_color = '#ccc';
     } else {

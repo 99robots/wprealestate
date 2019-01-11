@@ -4,7 +4,8 @@
 add_action( 'add_meta_boxes', 'PropertyCustomBox' );
 /* Adds a box to the main column on the Post and Page edit screens */
 function PropertyCustomBox() {
-    add_meta_box( 
+    $PluginName = "";
+    add_meta_box(
         'myplugin_sectionid',
         __( 'Property Details', $PluginName ),
         'property_custom_box',
@@ -14,9 +15,9 @@ function PropertyCustomBox() {
 //Custom box for Properties
 /* Prints the box content */
 function property_custom_box( $post ) {
-	
+
 	$mypostid = $post->ID;
-	
+
 	$et_er_property_name = stripslashes(get_post_meta($mypostid, 'et_er_property_name', true));
 	$et_er_adtype = stripslashes(get_post_meta($mypostid, 'et_er_adtype', true));
 	$et_er_type = stripslashes(get_post_meta($mypostid, 'et_er_type', true));
@@ -38,11 +39,14 @@ function property_custom_box( $post ) {
 	$et_er_state = stripslashes(get_post_meta($mypostid, 'et_er_state', true));
 	$et_er_rent_price = stripslashes(get_post_meta($mypostid, 'et_er_rent_price', true));
 	$et_er_rent_tenure = stripslashes(get_post_meta($mypostid, 'et_er_rent_tenure', true));
-	wp_nonce_field( plugin_basename( __FILE__ ), $PluginName );
-	
+  if (isset($PluginName)){
+      wp_nonce_field( plugin_basename( __FILE__ ), $PluginName );
+  }
+
+
 	?>
-    
-<div> 
+
+<div>
 <h2><?php _e( 'Location Details', 'wprealestate' ); ?></h2>
 <div class="AdmfrmLabel">
   <label for="et_er_property_name"><?php _e( 'Property Name', 'wprealestate' ); ?></label>
@@ -93,27 +97,27 @@ function property_custom_box( $post ) {
 <div class="AdmfrmFld">
 <?php
 $args = array(
-	'orderby'           => 'name', 
+	'orderby'           => 'name',
 	'order'             => 'ASC',
 	'hide_empty'        => 0
-); 
+);
 $get_state_results = get_terms('state', $args);
 ?>
     <select id="et_er_state" name="et_er_state" class="AdmFrmList">
         <option value="" selected="selected">Select State</option>
-        <?php 
+        <?php
         if($get_state_results){
-            foreach($get_state_results as $get_state_result){	
+            foreach($get_state_results as $get_state_result){
         ?>
             <option <?php if($et_er_state==$get_state_result->term_id){ ?>selected="selected" <?php } ?>value="<?php echo $get_state_result->term_id; ?>"><?php echo $get_state_result->name; ?></option>
-        <?php 
+        <?php
             }
         } ?>
     </select>
 </div>
 <br style="clear:both;" />
 
-</div>    
+</div>
 <div><h2><?php _e( 'Property Information', 'wprealestate' ); ?></h2>
 <div class="AdmfrmLabel">
   <label for="et_er_adtype"><?php #echo 'tt'.basename( dirname( __FILE__ ) ) . '/languages/';
@@ -194,14 +198,14 @@ $get_state_results = get_terms('state', $args);
   <label for="et_er_bedroom"><?php _e( 'Bedroom', 'wprealestate' ); ?></label>
 </div>
 <div class="AdmfrmFld">
-<input type="text" id="et_er_bedroom" name="et_er_bedroom" class="AdmFrmList" value="<?php echo $et_er_bedroom; ?>">  
+<input type="text" id="et_er_bedroom" name="et_er_bedroom" class="AdmFrmList" value="<?php echo $et_er_bedroom; ?>">
 </div>
 <br style="clear:both;" />
 <div class="AdmfrmLabel">
   <label for="et_er_bathroom"><?php _e( 'Bathroom', 'wprealestate' ); ?></label>
 </div>
 <div class="AdmfrmFld">
-  <input type="text" id="et_er_bathroom" name="et_er_bathroom" class="AdmFrmList" value="<?php echo $et_er_bathroom; ?>">    
+  <input type="text" id="et_er_bathroom" name="et_er_bathroom" class="AdmFrmList" value="<?php echo $et_er_bathroom; ?>">
 </div>
 <br style="clear:both;" />
 <div class="AdmfrmLabel">
@@ -233,7 +237,7 @@ $get_state_results = get_terms('state', $args);
 <div class="AdmfrmFld">
   <select name="p_cons_year" class="cstm_s_big" id="p_cons_year">
     <option <?php if ($et_er_cons_year == __( 'Not Applicable', 'wprealestate' )) {?> selected="selected"<?php }?>><?php _e( 'Not Applicable', 'wprealestate' ); ?></option>
-                    <?php 
+                    <?php
 					$yr = date('Y');
 					for ($x=1960; $x<=$yr; $x++){ ?>
 						<option value="<?php echo $x; ?>" <?php if ($et_er_cons_year == $x) { ?> selected="selected" <?php } ?>><?php echo $x; ?></option>
@@ -249,7 +253,7 @@ $get_state_results = get_terms('state', $args);
 </div>
 <br style="clear:both;" />
 
-</div>    
+</div>
 
 <?php
 }
@@ -260,81 +264,80 @@ function SavePropertyInfo($postID){
 	if($parent_id = wp_is_post_revision($postID))
 	{
 	$postID = $parent_id;
-	}	
-		if ($_POST['et_er_property_name']) {
+	}
+		if (isset($_POST['et_er_property_name'])) {
 		update_custom_meta($postID, addslashes($_POST['et_er_property_name']), 'et_er_property_name');
 		}
-		if ($_POST['et_er_adtype']) {
+		if (isset($_POST['et_er_adtype'])) {
 		update_custom_meta($postID, addslashes($_POST['et_er_adtype']), 'et_er_adtype');
 		}
-		if ($_POST['et_er_type']) {
+		if (isset($_POST['et_er_type'])) {
 		update_custom_meta($postID, addslashes($_POST['et_er_type']), 'et_er_type');
 		}
-		if ($_POST['et_er_built_size']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_built_size']), 'et_er_built_size');		
+		if (isset($_POST['et_er_built_size'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_built_size']), 'et_er_built_size');
 		} else {
 		update_custom_meta($postID, '0', 'et_er_built_size');
 		}
-		if ($_POST['et_er_land_size']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_land_size']), 'et_er_land_size');		
+		if (isset($_POST['et_er_land_size'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_land_size']), 'et_er_land_size');
 		} else {
 		update_custom_meta($postID, '0', 'et_er_land_size');
 		}
-		if ($_POST['et_er_price']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_price']), 'et_er_price');		
+		if (isset($_POST['et_er_price'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_price']), 'et_er_price');
 		} else {
 		update_custom_meta($postID, '0', 'et_er_price');
 		}
-		
-		if ($_POST['et_er_bedroom']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_bedroom']), 'et_er_bedroom');		
+
+		if (isset($_POST['et_er_bedroom'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_bedroom']), 'et_er_bedroom');
 		} else {
 		update_custom_meta($postID, '0', 'et_er_bedroom');
 		}
-		if ($_POST['et_er_bathroom']) {
-		update_custom_meta($postID, $_POST['et_er_bathroom'], 'et_er_bathroom');		
+		if (isset($_POST['et_er_bathroom'])) {
+		update_custom_meta($postID, $_POST['et_er_bathroom'], 'et_er_bathroom');
 		} else {
 		update_custom_meta($postID, '0', 'et_er_bathroom');
 		}
-		if ($_POST['et_er_furnishing']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_furnishing']), 'et_er_furnishing');		
+		if (isset($_POST['et_er_furnishing'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_furnishing']), 'et_er_furnishing');
 		}
-		if ($_POST['et_er_tenure']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_tenure']), 'et_er_tenure');		
+		if (isset($_POST['et_er_tenure'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_tenure']), 'et_er_tenure');
 		}
-		if ($_POST['et_er_date_vacant']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_date_vacant']), 'et_er_date_vacant');		
+		if (isset($_POST['et_er_date_vacant'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_date_vacant']), 'et_er_date_vacant');
 		} else {
 		update_custom_meta($postID, '0', 'et_er_date_vacant');
 		}
-		if ($_POST['et_er_area_location']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_area_location']), 'et_er_area_location');		
+		if (isset($_POST['et_er_area_location'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_area_location']), 'et_er_area_location');
 		}
-		if ($_POST['et_er_address']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_address']), 'et_er_address');		
+		if (isset($_POST['et_er_address'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_address']), 'et_er_address');
 		}
-		if ($_POST['et_er_zipcode']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_zipcode']), 'et_er_zipcode');		
+		if (isset($_POST['et_er_zipcode'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_zipcode']), 'et_er_zipcode');
 		}
-		if ($_POST['et_er_city']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_city']), 'et_er_city');		
+		if (isset($_POST['et_er_city'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_city']), 'et_er_city');
 		}
-		if ($_POST['p_cons_year']) {
-		update_custom_meta($postID, addslashes($_POST['p_cons_year']), 'p_cons_year');		
+		if (isset($_POST['p_cons_year'])) {
+		update_custom_meta($postID, addslashes($_POST['p_cons_year']), 'p_cons_year');
 		}
-		if ($_POST['et_er_unit_num']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_unit_num']), 'et_er_unit_num');		
+		if (isset($_POST['et_er_unit_num'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_unit_num']), 'et_er_unit_num');
 		}
-		if ($_POST['et_er_state']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_state']), 'et_er_state');		
+		if (isset($_POST['et_er_state'])) {
+		update_custom_meta($postID, addslashes($_POST['et_er_state']), 'et_er_state');
 		}
-		if ($_POST['et_er_rent_price']) {
+		if (isset($_POST['et_er_rent_price'])) {
 		update_custom_meta($postID, $_POST['et_er_rent_price'], 'et_er_rent_price');
 		} else {
 		update_custom_meta($postID, '0', 'et_er_rent_price');
 		}
-		
-		if ($_POST['et_er_rent_tenure']) {
-		update_custom_meta($postID, addslashes($_POST['et_er_rent_tenure']), 'et_er_rent_tenure');		
-		}		
-}	
+    if (isset($_POST['et_er_rent_tenure'])){
+      update_custom_meta($postID, addslashes($_POST['et_er_rent_tenure']), 'et_er_rent_tenure');
+    }
+}

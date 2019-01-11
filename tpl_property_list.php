@@ -4,8 +4,8 @@ if (!isset($_SESSION)) {
 }
 get_header();
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-$catproperty = $_REQUEST['cid'];
-$pro_search = $_REQUEST['key'];
+if(isset($_REQUEST['cid'])){$catproperty = $_REQUEST['cid'];}
+if(isset($_REQUEST['key'])){$pro_search = $_REQUEST['key'];}
 $p_list_sidebar = get_option('p_list_sidebar');
 if ($p_list_sidebar == 1) {
     $divclass_j = 'prpmaindvleft'; // sidebar enabled
@@ -20,15 +20,15 @@ $p_pro_id_display = get_option('p_pro_id_display');
     <h1>
         <?php _e('Property Listing', 'wprealestate'); ?>
         <?php
-        if ($catproperty) {
+        if (isset($catproperty)) {
             echo '- ' . $catproperty;
         }
         ?>
     </h1>
     <?php
-    $adv_frm = $_REQUEST['adv_frm'];
+    if(isset($_REQUEST['adv_frm'])){$adv_frm = $_REQUEST['adv_frm'];}
 
-    if ($_REQUEST['state'] != "") {
+    if (isset($_REQUEST['state']) && $_REQUEST['state'] != "") {
         $adv_frm = 1;
         $p_list_type = '-1';
     }
@@ -36,19 +36,19 @@ $p_pro_id_display = get_option('p_pro_id_display');
     if ($_POST) {
         unset($_SESSION['adv_frm']);
     } else {
-        if ($_REQUEST['frm'] == "adv") {
+        if (isset($_REQUEST['frm']) && $_REQUEST['frm'] == "adv") {
             if ($_SERVER['HTTP_REFERER'] != "" && $_SESSION['adv_frm'] != "") {
                 $adv_frm = 1;
             }
         }
     }
-    if ($_REQUEST['frm'] == "adv") {
+    if (isset($_REQUEST['state']) && $_REQUEST['frm'] == "adv") {
         if (empty($_SERVER['HTTP_REFERER'])) {
             unset($_SESSION['adv_frm']);
             $adv_frm = '';
         }
     }
-    if ($adv_frm == 1) {
+    if (isset($adv_frm) && $adv_frm == 1) {
         global $wpdb;
         $sbpn = $_POST['sbpn'];
         $p_type = $_POST['p_type'];
@@ -345,12 +345,15 @@ $p_pro_id_display = get_option('p_pro_id_display');
             _e('Sorry, no results found', 'wprealestate');
         }
     } else {
-
+      $sbpn_clean = "";
+        if (isset($_POST['sbpn'])){
+          $sbpn_clean = $_POST['sbpn'];
+        }
         $args_property = array(
             'post_type' => 'property',
             'posts_per_page' => $et_re_pp_listing,
             'paged' => get_query_var('paged'),
-            's' => $_POST['sbpn']
+            's' => $sbpn_clean
         );
 
         query_posts($args_property);
