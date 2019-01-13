@@ -3,9 +3,9 @@
   Plugin Name: WP Real Estate
   Plugin URI: http://www.etechy101.com/wp-real-estate-wordpress-plugin
   Description: Real estate property listing.
-  Author: Intense WP
-  Version: 5.4
-  Author URI: http://www.intensewp.com
+  Author: 99robots
+  Version: 5.5
+  Author URI: https://99robots.com
   Text Domain: wprealestate
   Domain Path: /languages
  */
