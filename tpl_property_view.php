@@ -246,8 +246,7 @@ if ($_POST) {
             <?php } ?>
 
             <div class = "prptinqfrm">
-                <?php if ($_REQUEST['msg'] == 1) {
-                    ?>
+                <?php if (isset($_REQUEST['msg']) && $_REQUEST['msg'] == 1) {?>
                     <div style="color:#060; font-weight:bold; margin:5px;"><?php _e('Inquiry has been sent to the Agent', 'wprealestate'); ?></div>
                 <?php } ?>
                 <form name="inq_form" id="inq_form" method="post">
