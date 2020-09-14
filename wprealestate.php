@@ -4,7 +4,7 @@
   Plugin URI: http://www.etechy101.com/wp-real-estate-wordpress-plugin
   Description: Real estate property listing.
   Author: 99robots
-  Version: 5.5.1
+  Version: 5.5.2
   Author URI: https://99robots.com
   Text Domain: wprealestate
   Domain Path: /languages
