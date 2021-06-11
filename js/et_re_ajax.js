@@ -21,8 +21,8 @@ function p_delete(text){
 	});
 }
 
-jQuery(document).ready(function($){
-	$("#form2").submit(function(){
+jQuery(function($){
+	$("#form2").on("submit", function(){
 		$('#et_re_loading2').show();
 		$('#et_re_sv_search').attr('disabled', true);
 		data = $("#form2").serialize()+'&do=customize_advanced_search&action=update_et_options&etre_nonce='+etre_vars.etre_nonce;
@@ -36,7 +36,7 @@ jQuery(document).ready(function($){
 		
 		return false;
 	});
-	$("#form1").submit(function(){
+	$("#form1").on("submit", function(){
 		$('#et_re_loading').show();
 		$('#et_re_submit').attr('disabled', true);
 		data = $("#form1").serialize()+'&do=update_et_options&action=update_et_options&etre_nonce='+etre_vars.etre_nonce;
@@ -51,7 +51,7 @@ jQuery(document).ready(function($){
 		return false;
 	});
 	
-	jQuery("#add_property_type_submit").click(function(){
+	jQuery("#add_property_type_submit").on("click", function(){
 		if( jQuery("#property_type_text").val()==""){
 			jQuery(".ajxrsp").html('Enter Property Type.').fadeIn();
 		} else {
