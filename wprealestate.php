@@ -1,11 +1,11 @@
 <?php
 /*
   Plugin Name: WP Real Estate
-  Plugin URI: http://www.etechy101.com/wp-real-estate-wordpress-plugin
+  Plugin URI: https://draftpress.com/products/wp-real-estate-wordpress-plugin
   Description: Real estate property listing.
-  Author: 99robots
-  Version: 5.5.2
-  Author URI: https://99robots.com
+  Author: DraftPress
+  Version: 5.5.3
+  Author URI: https://draftpress.com
   Text Domain: wprealestate
   Domain Path: /languages
  */

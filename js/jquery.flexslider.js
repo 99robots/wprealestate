@@ -87,7 +87,7 @@
 
         // KEYBOARD:
         if (vars.keyboard && ($(slider.containerSelector).length === 1 || vars.multipleKeyboard)) {
-          $(document).bind('keyup', function(event) {
+          $(document).on('keyup', function(event) {
             var keycode = event.keyCode;
             if (!slider.animating && (keycode === 39 || keycode === 37)) {
               var target = (keycode === 39) ? slider.getTarget('next') :
@@ -98,7 +98,7 @@
         }
         // MOUSEWHEEL:
         if (vars.mousewheel) {
-          slider.bind('mousewheel', function(event, delta, deltaX, deltaY) {
+          slider.on('mousewheel', function(event, delta, deltaX, deltaY) {
             event.preventDefault();
             var target = (delta < 0) ? slider.getTarget('next') : slider.getTarget('prev');
             slider.flexAnimate(target, vars.pauseOnAction);
@@ -125,7 +125,7 @@
         if (touch && vars.touch) methods.touch();
 
         // FADE&&SMOOTHHEIGHT || SLIDE:
-        if (!fade || (fade && vars.smoothHeight)) $(window).bind("resize focus", methods.resize);
+        if (!fade || (fade && vars.smoothHeight)) $(window).on("resize focus", methods.resize);
 
 
         // API: start() Callback
@@ -139,7 +139,7 @@
           slider.animatingTo = Math.floor(slider.currentSlide/slider.move);
           slider.currentItem = slider.currentSlide;
           slider.slides.removeClass(namespace + "active-slide").eq(slider.currentItem).addClass(namespace + "active-slide");
-          slider.slides.click(function(e){
+          slider.slides.on("click", function(e){
             e.preventDefault();
             var $slide = $(this),
                 target = $slide.index();
@@ -251,14 +251,14 @@
 
           methods.directionNav.update();
 
-          slider.directionNav.bind(eventType, function(event) {
+          slider.directionNav.on(eventType, function(event) {
             event.preventDefault();
             var target = ($(this).hasClass(namespace + 'next')) ? slider.getTarget('next') : slider.getTarget('prev');
             slider.flexAnimate(target, vars.pauseOnAction);
           });
           // Prevent iOS click event bug
           if (touch) {
-            slider.directionNav.bind("click touchstart", function(event) {
+            slider.directionNav.on("click touchstart", function(event) {
               event.preventDefault();
             });
           }
@@ -295,7 +295,7 @@
 
           methods.pausePlay.update((vars.slideshow) ? namespace + 'pause' : namespace + 'play');
 
-          slider.pausePlay.bind(eventType, function(event) {
+          slider.pausePlay.on(eventType, function(event) {
             event.preventDefault();
             if ($(this).hasClass(namespace + 'pause')) {
               slider.manualPause = true;
@@ -309,7 +309,7 @@
           });
           // Prevent iOS click event bug
           if (touch) {
-            slider.pausePlay.bind("click touchstart", function(event) {
+            slider.pausePlay.on("click touchstart", function(event) {
               event.preventDefault();
             });
           }
@@ -507,7 +507,7 @@
               slider.currentSlide = slider.animatingTo;
             }
             slider.container.unbind("webkitTransitionEnd transitionend");
-            slider.container.bind("webkitTransitionEnd transitionend", function() {
+            slider.container.on("webkitTransitionEnd transitionend", function() {
               slider.wrapup(dimension);
             });
           } else {
@@ -524,7 +524,7 @@
             slider.slides.eq(target).css({ "opacity": 1, "zIndex": 2 });
 
             slider.slides.unbind("webkitTransitionEnd transitionend");
-            slider.slides.eq(slider.currentSlide).bind("webkitTransitionEnd transitionend", function() {
+            slider.slides.eq(slider.currentSlide).on("webkitTransitionEnd transitionend", function() {
               // API: after() animation Callback
               vars.after(slider);
             });
