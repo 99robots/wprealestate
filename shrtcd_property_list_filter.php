@@ -1,6 +1,4 @@
 <?php
-
-#$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 if(isset($_REQUEST['lt']) && $_REQUEST['lt']!="")
 {
 	$filter = $_REQUEST['lt'];
@@ -41,7 +39,6 @@ $pro_args = array(
 	'suppress_filters' => true );
 
 $pro_list = get_posts( $pro_args );
-#print_r($pro_list);
 
 $pro_return='';
 foreach ( $pro_list as $propertyQuery ) {

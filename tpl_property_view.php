@@ -104,7 +104,7 @@ if ($_POST) {
             <div class="prpty_detailpg_label"><p class="sale"><?php echo get_post_meta($post->ID, 'et_er_adtype', true) . '<br />'; ?></p>
             </div>
         </div>
-        <?php /* ?><h3 class="address">
+        <h3 class="address">
           <?php
           if (get_post_meta($post->ID, 'et_er_address', true)) {
           echo get_post_meta($post->ID, 'et_er_address', true).', ';
@@ -113,7 +113,7 @@ if ($_POST) {
           echo get_post_meta($post->ID, 'et_er_area_location', true).', ';
           }
 
-          echo get_post_meta($post->ID, 'et_er_city', true).' '.get_post_meta($post->ID, 'et_er_zipcode', true); ?></h3><?php */ ?>
+          echo get_post_meta($post->ID, 'et_er_city', true).' '.get_post_meta($post->ID, 'et_er_zipcode', true); ?></h3>
         <div class="SpacerDiv"></div>
         <?php
         $property_imgs = get_property_images_ids();
@@ -167,7 +167,7 @@ if ($_POST) {
                 <?php the_content(); ?>
             </div>
             <div class="prpdheading"><?php _e('Property Details', 'wprealestate'); ?></div>
-            <?php /* ?><div class=" SpecLabel">
+            <div class=" SpecLabel">
               <?php _e( 'Property Name', 'wprealestate' ); ?>:<br>
               <?php _e( 'Property Address', 'wprealestate' ); ?>:
               </div>
@@ -175,7 +175,7 @@ if ($_POST) {
               <?php
               echo get_post_meta($post->ID, 'et_er_property_name', true).'<br>';
               echo get_post_meta($post->ID, 'et_er_address', true).', '.get_post_meta($post->ID, 'et_er_area_location', true).', '.get_post_meta($post->ID, 'et_er_city', true).' '.get_post_meta($post->ID, 'et_er_zipcode', true).' '.get_post_meta($post->ID, 'et_er_state', true); ?>
-              </div><?php */ ?>
+              </div>
 
             <div>
                 <ul class="prptyp_list">

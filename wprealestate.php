@@ -1,11 +1,11 @@
 <?php
 /*
   Plugin Name: WP Real Estate
-  Plugin URI: http://www.etechy101.com/wp-real-estate-wordpress-plugin
+  Plugin URI: https://draftpress.com/products/wp-real-estate-wordpress-plugin
   Description: Real estate property listing.
-  Author: 99robots
-  Version: 5.5.2
-  Author URI: https://99robots.com
+  Author: DraftPress
+  Version: 5.5.3
+  Author URI: https://draftpress.com
   Text Domain: wprealestate
   Domain Path: /languages
  */
@@ -182,7 +182,6 @@ function myplugin_register_widgets() {
     register_widget('SearchWidget');
 }
 
-#add_action( 'widgets_init', 'myplugin_register_widgets' );
 
 include ET_RE_PATH . 'functions.php';
 
@@ -197,7 +196,6 @@ add_action('admin_menu', 'et_er_AdminMenu');
 
 function et_er_HomeView() {
     global $PluginName, $wpdb;
-    #echo '<br /><h1>Welcome to WP Real Estate</h1>';
     include 'et_re_home.php';
 }
 
@@ -313,13 +311,13 @@ function tax_property_type() {
 }
 
 // Hook into the 'init' action
-#add_action( 'init', 'tax_property_type', 0 );
+add_action( 'init', 'tax_property_type', 0 );
 
 function et_re_load_scripts($hook) {
     global $PluginDirName, $PluginName, $et_re_settings_page;
 
-    /* if ( $hook != $et_re_settings_page )
-      return; */
+     if ( $hook != $et_re_settings_page )
+      return; 
 
     wp_enqueue_script('etre_ajax', plugin_dir_url(__FILE__) . 'js/et_re_ajax.js', array('jquery'));
     wp_localize_script('etre_ajax', 'etre_vars', array(

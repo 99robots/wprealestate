@@ -1,8 +1,8 @@
-jQuery(document).ready(function($) {
+jQuery(function($) {
 
 	var formfield = null, formfielddeux = null, num ='';
 
-	$('.get-image').click(function() {
+	$('.get-image').on("click", function() {
 		$('html').addClass('image_spe');
 		num = $(this).attr('data-num');
 		formfield = $('.id_img[data-num="'+num+'"]').attr('name');
@@ -11,14 +11,14 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 
-	$('.del-image').bind('click', function(){
+	$('.del-image').on('click', function(){
 		var cible = $(this).attr('data-num');
 		$('.img-preview[data-num="'+cible+'"]').empty();
 		$('.id_img[data-num="'+cible+'"]').val('');
 		$('.img-preview[data-num="'+cible+'"]').css({display:"none"});
 	});
 
-	$('.upload_pdf_button').live('click',function() {
+	$('.upload_pdf_button').on('click',function() {
 		$('html').addClass('pdf');
 		num = $(this).attr('data-cible');
 		formfielddeux = $('.url_pdf_input[data-input="'+num+'"]').attr('name');
